@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Історична газета про Візантію">
+    <title>Візантійська хроніка</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-white text-black py-4 border-b border-gray-300">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <h1 class="text-4xl font-serif font-bold">Візантійська хроніка</h1>
+
+            <div class="relative">
+                <input type="checkbox" id="menu-toggle" class="hidden peer" />
+
+                <label for="menu-toggle" class="block md:hidden cursor-pointer text-black">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                        class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </label>
+
+                <nav class="hidden md:flex">
+                    <a href="#" class="text-black hover:text-gray-600 transition duration-300">Головна</a>
+                    <a href="#" class="ml-6 text-black hover:text-gray-600 transition duration-300">Про Візантію</a>
+                    <a href="#" class="ml-6 text-black hover:text-gray-600 transition duration-300">Контакти</a>
+                </nav>
+
+                <nav
+                    class="absolute right-0 top-full mt-2 w-64 bg-white text-black hidden peer-checked:flex flex-col md:hidden z-10 mr-4 rounded-lg shadow-lg border border-gray-300
+                    opacity-0 transform scale-95 transition-all duration-300 ease-in-out peer-checked:opacity-100 peer-checked:scale-100">
+                    <a href="#" class="block py-2 px-4 border-b border-gray-300 hover:bg-gray-100 font-bold">Головна</a>
+                    <a href="#" class="block py-2 px-4 border-b border-gray-300 hover:bg-gray-100 font-bold">Про
+                        Візантію</a>
+                    <a href="#" class="block py-2 px-4 hover:bg-gray-100 font-bold">Контакти</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+    <main class="container mx-auto px-4 py-10">
+        <section class="mb-10 animate-fade-in-start" data-fade-in>
+            <h2 class="text-3xl font-serif font-bold mb-4 text-gray-900">Історія Візантії</h2>
+            <p class="leading-relaxed text-lg font-serif">
+                Візантійська імперія, також відома як Східна Римська імперія, існувала понад тисячу років.
+                Заснована імператором Костянтином Великим, вона стала найважливішим центром християнства та культури.
+            </p>
+            <p class="leading-relaxed text-lg font-serif mt-4">
+                Візантійська культура поєднувала елементи грецької, римської та східної традицій, що зробило її
+                унікальною цивілізацією.
+            </p>
+        </section>
+
+        <section class="mb-10 animate-fade-in-start" data-fade-in style="animation-delay: 0.5s;">
+            <img src="img/Konstantynopol_overal_look.jpg" alt="Константинополь"
+                class="w-full h-auto rounded shadow-lg transform hover:scale-105 transition-transform duration-500">
+            <p class="text-center text-sm mt-2 text-gray-600 font-serif">Великий Константинополь</p>
+        </section>
+
+        <section class="animate-fade-in-start" data-fade-in style="animation-delay: 1s;">
+            <h2 class="text-3xl font-serif font-bold mb-4 text-gray-900">Цікаві факти про Візантію</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div
+                    class="p-4 bg-white border-l-4 border-gray-900 transition-transform transform hover:-translate-y-2 duration-500 hover:bg-gray-100">
+                    <h3 class="text-2xl font-serif font-semibold mb-2">Константинополь</h3>
+                    <p class="leading-relaxed text-lg font-serif">
+                        Столиця Візантії була заснована імператором Костянтином Великим у 330 році і залишалася великим
+                        торговим і культурним центром аж до падіння у 1453 році.
+                    </p>
+                </div>
+
+                <div
+                    class="p-4 bg-white border-l-4 border-gray-900 transition-transform transform hover:-translate-y-2 duration-500 hover:bg-gray-100">
+                    <h3 class="text-2xl font-serif font-semibold mb-2">Злиття культур</h3>
+                    <p class="leading-relaxed text-lg font-serif">
+                        Візантія об'єднувала грецьку, римську та східні культури, створюючи унікальний симбіоз
+                        архітектури, мистецтва та науки.
+                    </p>
+                </div>
+
+                <div
+                    class="p-4 bg-white border-l-4 border-gray-900 transition-transform transform hover:-translate-y-2 duration-500 hover:bg-gray-100">
+                    <h3 class="text-2xl font-serif font-semibold mb-2">Іконопис</h3>
+                    <p class="leading-relaxed text-lg font-serif">
+                        Візантійський іконопис вплинув на православне мистецтво і поширився далеко за межі
+                        імперії, залишивши слід у релігійній культурі Східної Європи.
+                    </p>
+                </div>
+
+                <div
+                    class="p-4 bg-white border-l-4 border-gray-900 transition-transform transform hover:-translate-y-2 duration-500 hover:bg-gray-100">
+                    <h3 class="text-2xl font-serif font-semibold mb-2">Архітектура</h3>
+                    <p class="leading-relaxed text-lg font-serif">
+                        Величні собори, такі як Софія Константинопольська, вважаються шедеврами візантійської
+                        архітектури та зразками християнського зодчества.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white text-black py-6 mt-10 border-t border-gray-300">
+        <div class="container mx-auto px-4 text-center">
+            <p class="font-serif">
+                &copy; Візантійська хроніка. Всі права захищені.
+            </p>
+        </div>
+    </footer>
+</body>
